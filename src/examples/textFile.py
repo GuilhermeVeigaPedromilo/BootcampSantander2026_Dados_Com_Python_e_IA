@@ -57,19 +57,7 @@ class File:
          with open(f"{self.path + self.filename}.txt", "a") as file:
               file.write(newContent)
 
-class FileManagement:
-    files = []
-
-    def pushFile(self, newFile: File):
-        self.files.append(newFile)
-
-    def showFiles(self):
-        for file in self.files:
-            print("Filename: ", file.getPath + file.getFilename())
-
-def ReadingTextFile():
-#    files = FileManagement()
-#    files.showFiles()
+def WorkingWithTextFile():
     filename = ""
     filename = input("Enter the filename: ")
     newFile = File(filename)

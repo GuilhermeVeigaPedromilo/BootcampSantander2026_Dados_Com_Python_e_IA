@@ -1,5 +1,6 @@
 #imports
-from examples.textFile import ReadingTextFile
+from src.examples.textFile import WorkingWithTextFile
+from src.examples.csvFile import WorkingWithCsvFile
 
 print("Hello World! This isn't my first program in Python\n")
 
@@ -20,6 +21,7 @@ while (True):
             while (True):
                 print("\nChoose a example to run:")
                 print("1- Read and Write in Text file")
+                print("2- Read and Write in CSV file")
                 print("2- Exit")
                 program_example = 0
 
@@ -30,8 +32,10 @@ while (True):
 
                 match program_example:
                     case 1:
-                        ReadingTextFile()
+                        WorkingWithTextFile()
                     case 2:
+                        WorkingWithCsvFile()
+                    case 3:
                         print("\nFinishing this operation...\n")
                         break
                     case 0:
