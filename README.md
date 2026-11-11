@@ -35,8 +35,11 @@ python $program_name.py
 
 ### Working with Files and External Data in Python
 
-- #### Working with Text Files
-In this program, we create a management file of text files. Execute the program with `python main.py` and then access `Access examples` > `1- Read and Write in Text file` via terminal to run this program. Access the source code [here!](./src/examples/textFile.py)
+- #### Working with Files
+    In this program, I create a management files sort .txt, .csv and .json. Execute the program with `python main.py` and then access `Access examples` > Choose an option to run programs via terminal. Access the source code of those programs [here!](./src/examples/files/)
+
+- #### Working with API Integrations
+    In this example, I create a program with API integration.
 
 
 ## References

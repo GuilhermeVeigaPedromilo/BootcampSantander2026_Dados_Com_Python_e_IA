@@ -1,0 +1,26 @@
+[
+    {
+        "customer_name": "Quiet",
+        "company": "?",
+        "locate": "?",
+        "total_purchases": 234
+    },
+    {
+        "customer_name": "Venom Snake",
+        "company": "Diamond Dogs",
+        "locate": "Mother Base on Indian Ocean",
+        "total_purchases": 4324
+    },
+    {
+        "customer_name": "Ocelot",
+        "company": "Diamond Dogs",
+        "locate": "Mother Base on Indian Ocean",
+        "total_purchases": 7324
+    },
+    {
+        "customer_name": "Skull Face",
+        "company": "XOF",
+        "locate": "?",
+        "total_purchases": 17324
+    }
+]

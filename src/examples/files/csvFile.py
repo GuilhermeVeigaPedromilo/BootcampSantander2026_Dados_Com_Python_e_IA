@@ -47,13 +47,14 @@ def WorkingWithCsvFile():
     newFile = CsvFile("newCsv")
     newFile.createFile(data)
     content = newFile.readAllContent()
+
     print("Initial content:\n")
     for row in content:
         print(row)
+
     newFile.appendAContent(newData)
     content = newFile.readAllContent()
     print("\nCurrently Content:\n")
+    
     for row in content:
         print(row)
-
-WorkingWithCsvFile()

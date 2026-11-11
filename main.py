@@ -1,6 +1,7 @@
 #imports
-from src.examples.textFile import WorkingWithTextFile
-from src.examples.csvFile import WorkingWithCsvFile
+from src.examples.files.textFile import WorkingWithTextFile
+from src.examples.files.csvFile import WorkingWithCsvFile
+from src.examples.files.jsonFile import WorkingWithJsonFile
 
 print("Hello World! This isn't my first program in Python\n")
 
@@ -22,7 +23,8 @@ while (True):
                 print("\nChoose a example to run:")
                 print("1- Read and Write in Text file")
                 print("2- Read and Write in CSV file")
-                print("2- Exit")
+                print("3- Read and Write in JSON file")
+                print("4- Exit")
                 program_example = 0
 
                 try:
@@ -36,6 +38,8 @@ while (True):
                     case 2:
                         WorkingWithCsvFile()
                     case 3:
+                        WorkingWithJsonFile()
+                    case 4:
                         print("\nFinishing this operation...\n")
                         break
                     case 0:
