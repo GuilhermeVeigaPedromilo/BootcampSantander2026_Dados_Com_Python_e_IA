@@ -20,11 +20,14 @@ while (True):
     match option:
         case 1:
             while (True):
-                print("\nChoose a example to run:")
+                print("\nChoose an example to run:")
                 print("1- Read and Write in Text file")
                 print("2- Read and Write in CSV file")
                 print("3- Read and Write in JSON file")
-                print("4- Exit")
+                print("4- API Integration (Brasil API)")
+                print("5- SQLite3 database integration")
+                print("6- Using Data Analytcs Libs")
+                print("7- Exit")
                 program_example = 0
 
                 try:
@@ -40,6 +43,12 @@ while (True):
                     case 3:
                         WorkingWithJsonFile()
                     case 4:
+                        import src.examples.apis.apiIntegration
+                    case 5:
+                        import src.examples.databases.db_products
+                    case 6:
+                        import src.examples.data_analytcs_libs.example
+                    case 7:
                         print("\nFinishing this operation...\n")
                         break
                     case 0:

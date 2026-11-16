@@ -17,7 +17,13 @@ except response.status_code != 200 as e:
 for row in data:
     print(row)
 
-currency = input("\nEnter the a currency to search the trade it with BRL: ")
+currency = input("\nEnter the a currency to search data of the trade it with BRL: ")
 date = input("Date to search: ")
 
-newResponse = requests.get(url + f"cotacao/{currency}/{date}")
+newResponse = requests.get(url + f"cotacao/{currency}/{date}", verify=False)
+newResponse.json()
+
+
+print("\nResult: ", )
+for row in newResponse:
+    print(row)
