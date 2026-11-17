@@ -30,8 +30,9 @@ df = pd.DataFrame(data)
 print("\nProducts with 10% off: ")
 print(df)
 
-x = np.array([category["description"] for category in data])
-y = np.array([price["price"] for price in data])
+# Pandas use NumPy to do operations
+print(f"\nAverage of prices: {df["price"].mean():,.2f}")
 
-mtlp.plot(x, y)
+# Creating a column chart with series of data frame
+mtlp.barh(df["description"], df["price"])
 mtlp.show()

@@ -27,7 +27,8 @@ while (True):
                 print("4- API Integration (Brasil API)")
                 print("5- SQLite3 database integration")
                 print("6- Using Data Analytcs Libs")
-                print("7- Exit")
+                print("7- Product data manipulation")
+                print("8- Exit")
                 program_example = 0
 
                 try:
@@ -49,6 +50,8 @@ while (True):
                     case 6:
                         import src.examples.data_analytcs_libs.example
                     case 7:
+                        import src.examples.data_manipulation.products_manipulation
+                    case 8:
                         print("\nFinishing this operation...\n")
                         break
                     case 0:
