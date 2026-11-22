@@ -61,7 +61,17 @@ This content has used libs as:
     In this example, we can use a vector of dictionaries to create a Data Frame with Pandas. Execute the program with `python .\src\examples\data_analytcs_libs\pandas_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `2- Pandas Example`. Access the source code of those programs [here!](./src/examples/data_analytcs_libs/pandas_example.py)
 
 - #### Using Matplotlib lib:
-    In this example, we can use a vector of dictionaries to create a graph with . Execute the program with `python .\src\examples\data_analytcs_libs\matplotlib_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `3- Matplotlib Example`. Access the source code of those programs [here!](./src/examples/data_analytcs_libs/matplotlib_example.py)
+    In this example, we can use a vector of dictionaries to create a graph with Matplotlib. Execute the program with `python .\src\examples\data_analytcs_libs\matplotlib_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `3- Matplotlib Example`. Access the source code of those programs [here!](./src/examples/data_analytcs_libs/matplotlib_example.py)
+
+### Data Manipulation:
+
+- #### Products Data Manipulation:
+    In this example, we use NumPy, Pandas and Matplotlib to do data manipulation of products. Execute the program with `python .\src\examples\data_manipulation\products_manipulation.py` or execute `python main.py` and then access `Access examples` > `7- Product data manipulation`. Access the source code of those programs [here!](./src/examples/data_manipulation/products_manipulation.py)
+
+### Automation:
+
+- #### Pipeline to Tips Per Day Report:
+    In this example, we do a sample pipeline to create a report as CSV file of tips per day from ecommerce dataset API. Execute the program with `python .\src\examples\automation\pipeline_example.py` or execute `python main.py` and then access `Access examples` > `8- Tips per Day Report (Pipeline)`. Access the source code of those programs [here!](./src/examples/automation/pipeline_example.py)
 
 
 ## References
