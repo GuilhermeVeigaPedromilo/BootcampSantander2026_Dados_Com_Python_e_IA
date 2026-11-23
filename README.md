@@ -5,7 +5,7 @@
 ---
 
 ## Description
-This repository are project and examples made during the bootcamp and certificates reached.
+This repository are projects and examples made during the bootcamp and certificates reached.
 
 ## How can I run any or all contents?
 If you wanna execute any or all programs, you need to have the python installed in your machine. Open the terminal at the root folder this projet and use this command to discover if you have the Python installed:
@@ -38,6 +38,7 @@ This content has used libs as:
 - **Pandas:** data and table manipulation.
 - **Matplotlib:** graphic creation.
 - **SQLite3:** local database in special text file.
+- **Seaborn:** chart creation.
 
 ## Examples
 
@@ -55,24 +56,34 @@ This content has used libs as:
 ### Working with Data Analytcs Libs:
 
 - #### Using NumPy lib:
-    In this example, we can use a NumPy to assembly an array. Execute the program with `python .\src\examples\data_analytcs_libs\numpy_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `1- NumPy Example`. Access the source code of those programs [here!](./src/examples/data_analytcs_libs/numpy_example.py)
+    In this example, we can use a NumPy to assembly an array. Execute the program with `python .\src\examples\data_analytcs_libs\numpy_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `1- NumPy Example`. Access the source code of those program [here!](./src/examples/data_analytcs_libs/numpy_example.py)
 
 - #### Using Pandas lib:
-    In this example, we can use a vector of dictionaries to create a Data Frame with Pandas. Execute the program with `python .\src\examples\data_analytcs_libs\pandas_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `2- Pandas Example`. Access the source code of those programs [here!](./src/examples/data_analytcs_libs/pandas_example.py)
+    In this example, we can use a vector of dictionaries to create a Data Frame with Pandas. Execute the program with `python .\src\examples\data_analytcs_libs\pandas_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `2- Pandas Example`. Access the source code of those program [here!](./src/examples/data_analytcs_libs/pandas_example.py)
 
 - #### Using Matplotlib lib:
-    In this example, we can use a vector of dictionaries to create a graph with Matplotlib. Execute the program with `python .\src\examples\data_analytcs_libs\matplotlib_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `3- Matplotlib Example`. Access the source code of those programs [here!](./src/examples/data_analytcs_libs/matplotlib_example.py)
+    In this example, we can use a vector of dictionaries to create a graph with Matplotlib. Execute the program with `python .\src\examples\data_analytcs_libs\matplotlib_example.py` or execute `python main.py` and then access `Access examples` > `6- Using Data Analytcs Libs` > `3- Matplotlib Example`. Access the source code of those program [here!](./src/examples/data_analytcs_libs/matplotlib_example.py)
 
 ### Data Manipulation:
 
 - #### Products Data Manipulation:
-    In this example, we use NumPy, Pandas and Matplotlib to do data manipulation of products. Execute the program with `python .\src\examples\data_manipulation\products_manipulation.py` or execute `python main.py` and then access `Access examples` > `7- Product data manipulation`. Access the source code of those programs [here!](./src/examples/data_manipulation/products_manipulation.py)
+    In this example, we use NumPy, Pandas and Matplotlib to do data manipulation of products. Execute the program with `python .\src\examples\data_manipulation\products_manipulation.py` or execute `python main.py` and then access `Access examples` > `7- Product data manipulation`. Access the source code of those program [here!](./src/examples/data_manipulation/products_manipulation.py)
 
 ### Automation:
 
 - #### Pipeline to Tips Per Day Report:
-    In this example, we do a sample pipeline to create a report as CSV file of tips per day from ecommerce dataset API. Execute the program with `python .\src\examples\automation\pipeline_example.py` or execute `python main.py` and then access `Access examples` > `8- Tips per Day Report (Pipeline)`. Access the source code of those programs [here!](./src/examples/automation/pipeline_example.py)
+    In this example, we do a sample pipeline to create a report as CSV file of tips per day from ecommerce dataset API. Execute the program with `python .\src\examples\automation\pipeline_example.py` or execute `python main.py` and then access `Access examples` > `8- Tips per Day Report (Pipeline)`. Access the source code of those program [here!](./src/examples/automation/pipeline_example.py)
 
+### Charts:
+
+- #### Basic Charts:
+    In this example, we do a sample scatter chart. Execute the program with `python .\src\examples\charts\basic_charts.py` or execute `python main.py` and then access `Access examples` > `9- Charts` > `1- Basic Charts`. Access the source code of those program [here!](./src/examples/charts/basic_charts.py)
+
+- #### Static Charts:
+    In this example, we do a sample scatter chart. Execute the program with `python .\src\examples\charts\static_charts.py` or execute `python main.py` and then access `Access examples` > `9- Charts` > `2- Static Charts`. Access the source code of those program [here!](./src/examples/charts/basic_charts.py)
+
+- #### Interactive Charts:
+    In this example, we do a sample scatter chart. Execute the program with `python .\src\examples\charts\interactive_charts.py` or execute `python main.py` and then access `Access examples` > `9- Charts` > `3- Interactive Charts`. Access the source code of those program [here!](./src/examples/charts/basic_charts.py)
 
 ## References
 
