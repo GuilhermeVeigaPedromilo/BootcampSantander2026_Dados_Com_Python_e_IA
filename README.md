@@ -80,10 +80,32 @@ This content has used libs as:
     In this example, we do a sample scatter chart. Execute the program with `python .\src\examples\charts\basic_charts.py` or execute `python main.py` and then access `Access examples` > `9- Charts` > `1- Basic Charts`. Access the source code of those program [here!](./src/examples/charts/basic_charts.py)
 
 - #### Static Charts:
-    In this example, we do a sample scatter chart. Execute the program with `python .\src\examples\charts\static_charts.py` or execute `python main.py` and then access `Access examples` > `9- Charts` > `2- Static Charts`. Access the source code of those program [here!](./src/examples/charts/basic_charts.py)
+    In this example, we do a sample scatter chart. Execute the program with `python .\src\examples\charts\static_charts.py` or execute `python main.py` and then access `Access examples` > `9- Charts` > `2- Static Charts`. Access the source code of those program [here!](./src/examples/charts/static_charts.py)
 
 - #### Interactive Charts:
-    In this example, we do a sample scatter chart. Execute the program with `python .\src\examples\charts\interactive_charts.py` or execute `python main.py` and then access `Access examples` > `9- Charts` > `3- Interactive Charts`. Access the source code of those program [here!](./src/examples/charts/basic_charts.py)
+    In this example, we do a sample scatter chart. Execute the program with `python .\src\examples\charts\interactive_charts.py` or execute `python main.py` and then access `Access examples` > `9- Charts` > `3- Interactive Charts`. Access the source code of those program [here!](./src/examples/charts/interactive_charts.py)
+
+### Dashboards:
+
+- #### Dashboard based on Ecommerce:
+    In this example, we do a sample dashboard based on an ecommerce dataset. Execute the program with `python .\src\examples\dashboards\ecommerce.py` or execute `python main.py` and then access `Access examples` > `10- Dashboard`. Access the source code of those program [here!](./src/examples/dashboards/ecommerce.py)
+
+### Models in Data Science
+
+- #### Regression:
+    In this example, we train a regression model based on dataset of house's values and info. Furthermore, we generate a scatter chart with the title: Data Waste vs Predict Values. Result:
+
+    <img src="./src/examples/models_in_data_science/Regression_Example.png" alt="Data Waste vs Predict Values chart">
+
+    Execute the program with `python .\src\examples\models_in_data_science\regression_example.py` or execute `python main.py` and then access `Access examples` > `11- Models in Data Science` > `1- Regression`. Access the source code of those program [here!](./src/examples/models_in_data_science/regression_example.py)
+
+- #### Classification:
+    In this example, we train a classification model based on dataset of house's values and info. Furthermore, we generate a heatmap chart with the title: Confusion Matrix. Result:
+
+    <img src="./src/examples/models_in_data_science/Classification_Example.png" alt="Confusion Matrix chart">
+
+    Execute the program with `python .\src\examples\models_in_data_science\classification_example.py` or execute `python main.py` and then access `Access examples` > `11- Models in Data Science` > `2- Classification`. Access the source code of those program [here!](./src/examples/models_in_data_science/classification_example.py)
+
 
 ## References
 

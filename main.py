@@ -30,7 +30,9 @@ while (True):
                 print("7- Product data manipulation")
                 print("8- Tips per Day Report (Pipeline)")
                 print("9- Charts")
-                print("10- Exit")
+                print("10- Dashboard")
+                print("11- Models in Data Science")
+                print("12- Exit")
                 program_example = 0
 
                 try:
@@ -58,6 +60,10 @@ while (True):
                     case 9:
                         import src.examples.charts.charts_example
                     case 10:
+                        import src.examples.dashboards.ecommerce
+                    case 11:
+                        import src.examples.models_in_data_science.models_example
+                    case 12:
                         print("\nFinishing this operation...\n")
                         break
                     case 0:
